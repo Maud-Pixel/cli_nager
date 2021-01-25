@@ -1,0 +1,26 @@
+{
+  "name": "@maudleleux/cli_nager",
+  "version": "1.0.0",
+  "bin": {
+    "nager": "index.js"
+  },
+  "description": "Application with a get query to retrieve holidays dates from all over the world. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maud-Pixel/cli_nager.git"
+  },
+  "author": "Maud Leleux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maud-Pixel/cli_nager/issues"
+  },
+  "homepage": "https://github.com/Maud-Pixel/cli_nager#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "country-list": "^2.2.0"
+  }
+}
